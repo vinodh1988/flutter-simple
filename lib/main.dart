@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'firstpage.dart';
+import 'homepage.dart';
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +14,7 @@ const   MyApp({super.key}) ;
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FirstPage(),
+      home: HomePage(),
     );
   }
 }
