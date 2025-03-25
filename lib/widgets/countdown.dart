@@ -2,11 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 
-class CountDown extends StatefulWidget {
-  const CountDown({super.key});
-  @override
-State<CountDown> createState() => _CountDownState();
-}
 
 class _CountDownState extends State<CountDown> {
   int _counter = 100;
@@ -55,4 +50,11 @@ class _CountDownState extends State<CountDown> {
       ),
     );
   }
+}
+
+
+class CountDown extends StatefulWidget {
+  const CountDown({super.key});
+  @override
+State<CountDown> createState() => _CountDownState();
 }
