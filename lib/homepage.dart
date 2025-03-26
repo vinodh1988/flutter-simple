@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/firstpage.dart';
 import 'pages/secondpage.dart';
+import 'pages/thirdpage.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -31,6 +32,16 @@ class HomePage extends StatelessWidget {
               );
             },
             child: Text('Go to Second Page'),
+          ),
+           ElevatedButton.icon(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ThirdPage()),
+              );
+            },
+            icon: Icon(Icons.navigate_next),
+            label: Text('Go to Third Page'),
           )
         ]
       )
