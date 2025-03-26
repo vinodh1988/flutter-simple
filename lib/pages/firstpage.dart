@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'fifthpage.dart';
+import 'seventhpage.dart';
 
 
 class FirstPage extends StatelessWidget {
@@ -27,7 +28,7 @@ class FirstPage extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => FifthPage()),
+                MaterialPageRoute(builder: (context) => SeventhPage()),
               );
             },
             child: Text('Go to Seventh Page'),
